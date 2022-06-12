@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+
+
+<body>
+    <form method="post" action="/save">
+        <fieldset>
+            <div>
+                <div>
+                    <label for="name">Name</label>
+                    <input name="name" type="text" placeholder="Enter Your Name" id="name" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input name="password" type="password" placeholder="Enter Your Password" id="password">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input name="email" type="email" placeholder="Enter Your Email" id="email">
+                </div>
+                <div>
+                    <label for="date">Date</label>
+                    <input name="date" type="date" id="date">
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <input name="age" type="number" id="age" min="1" max="150">
+                </div>
+
+
+                <div>Favorite Food</div>
+                <div>
+                    <label for="banana">Banana</label>
+                    <input type="checkbox" name="banana" id="banana">
+                </div>
+
+                <div>
+                    <label for="apple">Apple</label>
+                    <input type="checkbox" name="apple" id="apple">
+                </div>
+
+
+                <div>Gender</div>
+                <div>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male">
+                </div>
+                <div>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female">
+                </div>
+                <div>
+                    <label for="other">Other</label>
+                    <input type="radio" name="gender" id="other">
+                </div>
+
+                <div>Favorite Color</div>
+                <div>
+                    <label for="color">Color</label>
+                    <select name="color" id="color">
+                        <option value="select your favorite color">select your favorite color</option>
+                        <option value="green">Green</option>
+                        <option value="red">Red</option>
+                        <option value="black">Black</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="comments">Comments</label>
+                    <textarea id="comments"></textarea>
+                </div>
+               
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+                <div>
+                    <button type="reset">Reset</button>
+                </div>
+            </div>
+        </fieldset>
+
+
+
+
+
+    </form>
+
+
+</body>
+
+</html>

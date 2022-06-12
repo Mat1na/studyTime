@@ -1,0 +1,262 @@
+
+
+html,body{
+    font-family:'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  
+}
+
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+    
+   
+}
+
+
+h1, h1, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+
+
+h1{
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+    
+}
+
+h2{
+   
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h3{
+   
+    font-weight: 900;
+    font-size: 1.5rem;
+  
+}
+
+
+.h3-cta{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 4rem;
+
+}
+
+.h-pricing{
+    color: black;
+}
+
+
+p{
+    color: #8f8f8f;
+}
+
+
+.container-fluid{
+    padding: 3% 10% 7%;
+}
+
+ 
+
+
+/* Navigation Bar */
+.navbar{
+    padding: 1rem 2rem;
+    margin-right: 1.1rem;
+    position: fixed;
+    z-index: 1030;
+    background-color: #ff4c68;
+   
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family:"Ubuntu", sans-serif ;
+    font-weight: bold;
+}
+.navbar-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.row{
+padding-top: 100px;
+}
+
+
+
+/* Btn */
+
+.button-dwnl:hover{
+background-color:white;
+border: none;
+color:black;
+
+}
+
+.button-dwnl{
+margin: 1rem 0.5rem 1rem 0;
+}
+
+
+
+/* Dog img */
+
+
+.img-dog{
+    width: 300px;
+    transform: rotate(20deg);
+   
+    position: relative;
+  
+   
+}
+
+#imgcontainer{
+   
+    padding: 10px;
+}
+
+
+
+/* Features */
+#features{
+    padding:7% 15% 0 15%;
+    background-color: white;
+    position: relative;
+  bottom:200px;
+  
+  
+   
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+    
+}
+
+/* testimonials */
+.testpress{
+    position: relative;
+    bottom:150px;
+    
+}
+#testimonials{
+   
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+    
+}
+
+.testimonial-image{
+    width: 20%;
+    border-radius:100% ;
+    margin: 10px;
+}
+
+
+.carousel-item{
+    padding:7% 15% ;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+    
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* cards pricing */
+.btn-card{
+    background-color: #ef8172;
+    color: white;
+}
+
+.btn-card-outline{
+    border-color: #ef8172;
+    color: #ef8172;
+}
+
+.btn-card-outline:hover{
+    background-color: #ef8172;
+    color: #ffffff;
+}
+
+#pricing{
+    padding: 20px;
+    text-align: center;
+    position: relative;
+   bottom: 80px;
+}
+.pricing-column{
+    padding: 3% 2%;
+
+}
+
+
+/* call to action */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    
+    padding:7% 15%;
+    color: white;
+}
+
+.btn-cta{
+    margin: 1rem 0.5rem 1rem 0;  
+}
+
+#footer{
+text-align: center;
+padding: 7% 15%;
+}
+
+.social-icon{
+margin: 20px 10px;
+
+}
+@media (max-width: 898px){
+    #title{
+        text-align: center;
+    }
+    .img-dog{
+        position: static;
+        transform: rotate(0);
+    }
+
+}
+
